@@ -1,0 +1,10 @@
+//session’ÊÑ’¿ô’¤Î’½é’´ü’²½
+
+initSessionVars = function(){
+
+    //Node’´Ø’Ï¢’¤Î’ÊÑ’¿ô
+    Session.setDefault('isMining', false);
+    Session.setDefault('hashRate', 0);
+    Session.setDefault('peerCount', 0);
+    
+};
